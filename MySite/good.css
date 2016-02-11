@@ -1,0 +1,97 @@
+.header {
+    border:             5px solid black;
+    color:              white;
+    background:         black;
+    font-family:        "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align:         center;
+    opacity:            0.75;
+    padding:            3%;
+}
+
+.rightside {
+    line-height:        133%;
+    background-color:   #eeeeee;
+    height:             71%;
+    width:              15%;
+    float:              right;
+    margin-top:         0.5%;
+    padding-top:        1%;
+    padding-left:       1%;
+    padding-right:      5%;
+    font-size:          1em;
+    opacity:            0.8;
+    border:             1px solid black;
+}
+
+#main_top {
+    background-color:   #eeeeee;
+    font-family:        "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-right:       21.5%;
+    margin-top:         0.5%;
+    text-align:         left;
+    padding:            1%;
+    opacity:            1;
+    height:             100%;
+    border:             1px solid black;
+}
+
+#main_header {
+    margin-left:        20.5%;
+}
+
+#sidebar {
+    font-family:        "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#sidelist {
+    font-family:        "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-variant:       small-caps;
+}
+
+#profile_pic {
+    background-image:   url(http://vignette4.wikia.nocookie.net/jamesbond/images/6/61/Generic_Placeholder_-_Profile.jpg/revision/latest?cb=20121227201208);
+    background-size:    15em, 15em;
+    width:              15em;
+    height:             15em;
+    float:              left;
+    margin-right:       2%;
+}
+
+#profile_text {
+    padding-bottom: 9%;
+}
+
+#edu_text {
+    padding-left: 3%;
+    padding-right: 25%;
+}
+
+#future_header {
+    padding-top: 2%;
+}
+
+#future_text {
+    padding-left: 25%;
+    padding-right: 10%;
+}
+
+#mid_pic {
+    background-image:   url(http://codecondo.com/wp-content/uploads/2014/04/12-Free-Books-for-Learning-Theoretical-Computer-Science.jpg);
+    background-size:    20em, 25em;
+    width:              20em;
+    height:             12.5em;
+    float:              right;
+}
+
+#bot_pic {
+    background-image:   url(http://www.tibbr.com/blog/wp-content/uploads/2012/06/Private-Social-Networks-in-20-Years.jpg);
+    background-size:    20em, 20em;
+    width:              20em;
+    height:             11em;
+    float:              left;
+    margin-right:       2%;
+}
+
+body {
+    background-image: url(img/waves-exp.jpg);
+}

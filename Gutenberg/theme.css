@@ -27,10 +27,18 @@ H2 {
     margin-right:   15%; 
 }
 
-H3,H4,H5,H6 {
+H3 {
+    font-style:     italic;
+    font-variant:   small-caps;
     text-align:     center; 
     margin-left:    15%; 
     margin-right:   15%;   
+}
+
+H4,H5,H6 {
+    text-align:     center; 
+    margin-left:    15%; 
+    margin-right:   15%;  
 }
 
 /* Theme images and image captions */
@@ -45,6 +53,18 @@ caption {
     font-size: 2em;
 }
 
+div.tei-head {
+    font-family:    "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size:      1em;
+    font-style:     italic;
+}
+
+div.tei-l {
+    font-family:    "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-style:     italic;
+    font-variant:   small-caps;
+}
+
 /* Change colour scheme */
 body { 
     background-color: rgb(255,222,173);
@@ -53,7 +73,8 @@ body {
 }
 
 div {
-    font-family:    "Trebuchet MS", Helvetica, sans-serif
+    font-family:    "Trebuchet MS", Helvetica, sans-serif;
+    font-size:      20px;
 }
 
 hr  { 

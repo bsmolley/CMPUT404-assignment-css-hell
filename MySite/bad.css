@@ -1,0 +1,123 @@
+.header {
+    color:              lime;
+    font-family:        "Courier New", Courier, monospace;
+    text-align:         center;
+    opacity:            0.75;
+    padding:            3%;
+    animation-name: spin;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    transform-style: preserve-3d;
+}
+
+.rightside {
+    line-height:        133%;
+    background-image: url(https://45.media.tumblr.com/3f5c17ca44934aee35a241976f23ab35/tumblr_n0jejknGpx1trtuzvo1_500.gif);
+    height:             71%;
+    width:              15%;
+    float:              right;
+    margin-top:         0.5%;
+    padding-top:        1%;
+    padding-left:       1%;
+    padding-right:      5%;
+    font-size:          1em;
+    opacity:            0.8;
+    border:             1px solid black;
+}
+
+#main_top {
+    background-image:   url(https://media.giphy.com/media/bsRSKZhTXgDXa/giphy.gif);
+    background-size:    50%;
+    font-family:        "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-right:       21.5%;
+    margin-top:         0.5%;
+    text-align:         left;
+    padding:            1%;
+    opacity:            1;
+    height:             100%;
+    border:             1px solid black;
+    color:              yellow;
+    animation-name: spin;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+}
+
+#main_header {
+    margin-left:        20.5%;
+}
+
+#sidebar {
+    font-family:        "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#sidelist {
+    font-family:        "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-variant:       small-caps;
+
+}
+
+#profile_pic {
+    background-image:   url(http://funnyasduck.net/wp-content/uploads/2015/03/funny-pictures-pug-sticking-tongue-out-animated-gif.gif);
+    background-size:    15em, 15em;
+    width:              15em;
+    height:             15em;
+    float:              left;
+    margin-right:       2%;
+}
+
+#profile_text {
+    padding-bottom: 9%;
+}
+
+#edu_text {
+    padding-left: 3%;
+    padding-right: 25%;
+}
+
+#future_header {
+    padding-top: 2%;
+}
+
+#future_text {
+    padding-left: 25%;
+    padding-right: 10%;
+}
+
+#mid_pic {
+    background-image:   url(http://i.imgur.com/GDZ4Qx5.gif);
+    background-size:    20em, 25em;
+    width:              20em;
+    height:             15em;
+    float:              right;
+}
+
+#bot_pic {
+    background-image:   url(https://localtvwghp.files.wordpress.com/2015/02/kj5g27.gif);
+    background-size:    20em, 20em;
+    width:              20em;
+    height:             11em;
+    float:              left;
+    margin-right:       2%;
+}
+
+body {
+    background-image: url(http://i.imgur.com/2Enhl.gif);
+    background-position: 0px 0px;
+    animation: headbang 20s linear infinite;
+}
+
+@keyframes headbang {
+    from { background-position: 0 0; }
+    to { background-position: 100% 0; }
+}
+
+@keyframes spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-360deg);
+  }
+}
