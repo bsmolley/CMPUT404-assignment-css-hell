@@ -4,7 +4,7 @@
     text-align:         center;
     opacity:            0.75;
     padding:            3%;
-    animation-name: spin;
+    animation-name: spinX;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-duration: 3s;
@@ -24,6 +24,10 @@
     font-size:          1em;
     opacity:            0.8;
     border:             1px solid black;
+    animation-name: spinX;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
 }
 
 #main_top {
@@ -38,10 +42,10 @@
     height:             100%;
     border:             1px solid black;
     color:              yellow;
-    animation-name: spin;
+    animation-name: spinY;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-duration: 15s;
+    animation-duration: 25s;
 }
 
 #main_header {
@@ -109,11 +113,24 @@ body {
 }
 
 @keyframes headbang {
-    from { background-position: 0 0; }
-    to { background-position: 100% 0; }
+    from { 
+        background-position: 0 0; 
+    }
+    to { 
+        background-position: 100% 0; 
+    }
 }
 
-@keyframes spin {
+@keyframes spinX {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(-360deg);
+  }
+}
+
+@keyframes spinY {
   from {
     transform: rotateY(0deg);
   }
@@ -121,3 +138,5 @@ body {
     transform: rotateY(-360deg);
   }
 }
+
+
