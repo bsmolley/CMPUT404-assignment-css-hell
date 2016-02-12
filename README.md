@@ -16,6 +16,9 @@ Notes
 =================
 I chose to not include an actual profile picture for privacy reasons.
 
+In pap.html I removed the style tags.
+Removed color tag in mars.htm.
+
 
 License/Copyright
 =================
@@ -28,6 +31,9 @@ Code is licensed under the Apache 2.0 license.
 
 References 
 =================
+
+Paperback Image:
+http://www.tiptheme.com/wp-content/uploads/2015/07/paper-background-9.jpg
 
 CSS Animations:
 http://stackoverflow.com/questions/30872773/css-only-3d-spinning-text 

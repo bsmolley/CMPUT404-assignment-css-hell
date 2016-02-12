@@ -59,6 +59,7 @@ div.tei-head {
     font-style:     italic;
 }
 
+
 div.tei-l {
     font-family:    "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-style:     italic;
@@ -67,7 +68,8 @@ div.tei-l {
 
 /* Change colour scheme */
 body { 
-    background-color: rgb(255,222,173);
+    background-image: url(http://www.tiptheme.com/wp-content/uploads/2015/07/paper-background-9.jpg);
+    background-size: 125%;
     margin:         5%; 
     text-align:     justify;
 }
