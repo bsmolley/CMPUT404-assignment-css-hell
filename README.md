@@ -32,6 +32,9 @@ Code is licensed under the Apache 2.0 license.
 References 
 =================
 
+Unfortunately I couldn't find the authors of most of these images, so I provided a link
+as my source. Hopefully that's enough.
+
 Paperback Image:
 http://www.tiptheme.com/wp-content/uploads/2015/07/paper-background-9.jpg
 
